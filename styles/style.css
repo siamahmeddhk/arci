@@ -1,0 +1,117 @@
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ /*common styles  */
+ 
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.primary-btn{
+    padding: 20px 25px;
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+}
+.banner-image{
+    margin-top: 40px;
+    width: 100%;
+}
+/* nav style start */
+header{
+    background-color: #FFF4E7;
+}
+nav{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.banner{
+    max-width: 1440px;
+    margin-top: 100px;
+    margin-bottom: 100px;   
+}
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.banner-items{
+
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.banner-dis{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* team section start */
+.team-work{
+    display: flex;
+}
+.team-work-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-work-cont{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.team-work-cont-title{
+    margin-bottom: 20px;
+}
+.team-work-cont-dis{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 575px){
+.navbar{
+    flex-direction: column;
+}    
+.banner-image{
+    width: 100%;
+}
+.team-work{
+    flex-direction: column;
+}
+.team-work-images{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+}
+}
