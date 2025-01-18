@@ -153,6 +153,33 @@ nav{
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
+.spons{
+    margin-top: 70px;
+    text-align: center;
+}
+.spons-title{
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+.spons-icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.spons-logo{
+    filter: grayscale(100%);
+}
+.foot{
+    background-color: #FFF4E7;
+    padding: 20px 20px;
+    text-align: center;
+}
+.foot p{
+    font-size: 1rem;
+}
 @media screen and (max-width: 575px){
 .navbar{
     flex-direction: column;
@@ -187,5 +214,8 @@ nav{
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(1, 1fr)
+}
+.spons-icon{
+    flex-wrap: wrap;
 }
 }
